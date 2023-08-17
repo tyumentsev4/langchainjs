@@ -689,7 +689,8 @@
     "usearch": "^1.1.1",
     "vectordb": "^0.1.4",
     "weaviate-ts-client": "^1.4.0",
-    "youtube-transcript": "^1.0.6"
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^5.8.0"
   },
   "peerDependencies": {
     "@aws-crypto/sha256-js": "^5.0.0",
@@ -762,7 +763,8 @@
     "usearch": "^1.1.1",
     "vectordb": "^0.1.4",
     "weaviate-ts-client": "^1.4.0",
-    "youtube-transcript": "^1.0.6"
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^5.8.0"
   },
   "peerDependenciesMeta": {
     "@aws-crypto/sha256-js": {
@@ -970,6 +972,9 @@
       "optional": true
     },
     "youtube-transcript": {
+      "optional": true
+    },
+    "youtubei.js": {
       "optional": true
     }
   },

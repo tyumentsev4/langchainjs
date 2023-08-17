@@ -1,8 +1,8 @@
 import { YoutubeLoader } from "langchain/document_loaders/web/youtube";
 
-const loader = new YoutubeLoader({
-  urlOrId: "https://youtu.be/bZQun8Y4L2A",
+const loader = YoutubeLoader.createFromUrl("https://youtu.be/bZQun8Y4L2A", {
   language: "en",
+  addViedoInfo: true,
 });
 
 const docs = await loader.load();
